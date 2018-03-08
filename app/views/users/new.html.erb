@@ -1,0 +1,13 @@
+<h1>Create a new account</h1>
+<br>
+<form action="<%= users_url %>" method="post">
+  <label for="username"> Please enter a desired username
+    <input id="username" type="text" name="user[username]">
+  </label>
+  <br>
+  <label for="password">Please enter a password at least 6 chars long
+    <input id="password" type="text" name="user[password]">
+  </label>
+  <br>
+  <input type="submit" value="Signup">
+</form>

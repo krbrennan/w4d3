@@ -1,0 +1,11 @@
+<h1> Login dog<h1>
+  <form action="<%= session_url %>" method="post">
+    <label for="username"> Please enter your username
+      <input id="username" type="text" name="user[username]">
+    </label>
+    <br>
+    <label for="password">Please enter your password
+      <input id="password" type="text" name="user[password]">
+    </label>
+    <br>
+    <input type="submit" value="login">
